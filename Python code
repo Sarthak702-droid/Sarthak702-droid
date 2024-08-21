@@ -1,0 +1,62 @@
+#Empty dictonary
+library = {}
+#function to add a book
+def add_book(book_title):# inputs title of the book
+    if book_title in library:
+        print(f"{book_title}already exists in the library")
+    else:
+        library[book_title] = True
+        print(f"{book_title} added to the library")
+#function to check out a book
+def  check_out(book_title):
+    if book_title in library:
+        if library[book_title] == True:
+            print(f"You have already checked out {book_title}")
+        else:
+            print(f"{book_title} is in the library")
+    else:
+        print(f"{book_title} is not in the library")
+#function to check out a book
+def  check_out(book_title):#problem in this code :- cannot update the condition of the book i.e if the book is checked out from library the it cannot updated the data set
+    if book_title in library:
+        if library[book_title] == True:
+            print(f"You have already checked out {book_title}")
+        else:
+            print(f"{book_title} is in the library")
+    else:
+        print(f"{book_title} is not in the library")
+#functions to return a book
+def return_book(book_title):
+    if book_title in library:
+        if library[book_title] == False:
+            library[book_title] = True
+            print("Thanks for returning the book")
+        else:
+            print(f"{book_title} is already available in the library no need to return it")
+    else:
+        print(f"{book_title} is not in the library")
+book_title = input("Enter the name of the book :-")
+#functions for view all the books
+def view_all_books():
+    print("====================================================Books in the library====================================================")
+    for book , available in library.items():
+        status = "Available" if available else "Checked out"
+        print(f"{book}:{status}")
+    else:
+        print("No books in the library\nlibrary is empty")
+print("================Choices================\n1. Add Books in library\n2. Check Out Books from library\n3. Return Books to\n4. View all Books\n5. Exit")
+while True:
+    book_title = input("Enter the name of the book :-")
+    choice = input("Enter your choice: ")
+    
+    if choice == "1":
+        add_book(book_title)
+    elif choice == "2":
+        check_out(book_title)
+    elif choice == "3":
+        return_book(book_title)
+    elif choice == "4":
+        view_all_books()
+    elif choice == "5":
+        break
+print("================END================")        
