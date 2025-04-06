@@ -31,14 +31,14 @@
 ---
 
 ### 📈 GitHub Stats
-![Sarthak's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sarthak702-droid&show_icons=true&theme=radical)
+![Sarthak's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sarthak702-droid&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sarthak702-droid&layout=compact&theme=radical)
 
 ---
 
 ### 📫 Let's Connect
-[![LinkedIn](www.linkedin.com/in/sarthaktripathy91104)](https://www.linkedin.com/in/your-profile)
-[![Gmail](sarthaktripathy2004@gmail.com)](mailto:your-email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarthaktripathy91104)  
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sarthaktripathy2004@gmail.com)
 
 ---
 
