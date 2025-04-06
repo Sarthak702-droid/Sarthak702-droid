@@ -37,8 +37,8 @@
 ---
 
 ### 📫 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![LinkedIn](www.linkedin.com/in/sarthaktripathy91104)](https://www.linkedin.com/in/your-profile)
+[![Gmail](sarthaktripathy2004@gmail.com)](mailto:your-email@gmail.com)
 
 ---
 
