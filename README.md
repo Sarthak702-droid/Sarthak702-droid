@@ -1,6 +1,6 @@
 # Hi 👋 I'm Sarthak!
 
-🎓 2nd-year CSE student specializing in **AI & Data Science**  
+🎓 3rd-year CSE student specializing in **AI & Data Science**  
 📍 Based in **Bhubaneshwar, India**  
 🐍 Currently diving deep into **Python** and **Machine Learning**  
 
