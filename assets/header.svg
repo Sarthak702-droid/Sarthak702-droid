@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="270" viewBox="0 0 840 270" role="img" aria-label="Sarthak Tripathy — problem solver. AI and Data Science, full-stack systems. Turning messy real-world problems into working systems.">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#232326" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#161617"/>
+      <stop offset=".55" stop-color="#161617" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#161617" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="840" height="270" rx="12"/></clipPath>
+    <clipPath id="type">
+      <rect x="40" y="186" width="0" height="26">
+        <animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.08;0.42;0.96;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="840" height="270" fill="#161617"/>
+    <rect width="840" height="270" fill="url(#grid)"/>
+    <rect width="840" height="270" fill="url(#fade)"/>
+
+    <!-- search graph: dim edges are the options, the bright path is the solution -->
+    <g stroke="#3a3a3e" stroke-width="1.5" fill="none">
+      <path d="M580 200L640 150L700 170L740 100L800 70"/>
+      <path d="M580 200L610 100L670 60L740 100"/>
+      <path d="M610 100L640 150"/>
+      <path d="M580 200L690 232L770 200L800 70"/>
+      <path d="M700 170L690 232"/>
+      <path d="M700 170L770 200"/>
+      <path d="M670 60L800 70"/>
+    </g>
+    <path d="M580 200L640 150L700 170L740 100L800 70" fill="none" stroke="#3987e5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="290" stroke-dashoffset="290">
+      <animate attributeName="stroke-dashoffset" values="290;290;0;0;290" keyTimes="0;0.1;0.5;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <g fill="#161617" stroke="#55555a" stroke-width="1.5">
+      <circle cx="610" cy="100" r="5"/>
+      <circle cx="670" cy="60" r="5"/>
+      <circle cx="690" cy="232" r="5"/>
+      <circle cx="770" cy="200" r="5"/>
+    </g>
+    <g fill="#161617" stroke="#55555a" stroke-width="1.5">
+      <circle cx="640" cy="150" r="5">
+        <animate attributeName="stroke" values="#55555a;#55555a;#3987e5;#3987e5;#55555a" keyTimes="0;0.2;0.22;0.94;1" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="700" cy="170" r="5">
+        <animate attributeName="stroke" values="#55555a;#55555a;#3987e5;#3987e5;#55555a" keyTimes="0;0.29;0.31;0.94;1" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="740" cy="100" r="5">
+        <animate attributeName="stroke" values="#55555a;#55555a;#3987e5;#3987e5;#55555a" keyTimes="0;0.4;0.42;0.94;1" dur="9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <circle cx="580" cy="200" r="6.5" fill="#3987e5"/>
+    <circle cx="800" cy="70" r="6.5" fill="#161617" stroke="#55555a" stroke-width="1.5">
+      <animate attributeName="fill" values="#161617;#161617;#199e70;#199e70;#161617" keyTimes="0;0.5;0.52;0.94;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#55555a;#55555a;#199e70;#199e70;#55555a" keyTimes="0;0.5;0.52;0.94;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="70" r="6.5" fill="none" stroke="#199e70" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="6.5;6.5;18;18" keyTimes="0;0.5;0.62;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;.8;0;0" keyTimes="0;0.5;0.51;0.62;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <g font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#8b8b8d">
+      <text x="580" y="222" text-anchor="middle">problem</text>
+      <text x="800" y="52" text-anchor="middle">shipped</text>
+    </g>
+
+    <!-- identity -->
+    <g font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+      <text x="40" y="62" fill="#8b8b8d"><tspan fill="#199e70">$</tspan> whoami</text>
+    </g>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="38" y="118" font-size="46" font-weight="700" fill="#f0efec" letter-spacing="-.5">Sarthak Tripathy</text>
+      <text x="40" y="153" font-size="16.5" fill="#c3c2b7">Problem solver · AI &amp; Data Science · Full-stack systems</text>
+    </g>
+    <g font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">
+      <g clip-path="url(#type)">
+        <text x="40" y="204" fill="#f0efec"><tspan fill="#3987e5">&gt; </tspan>turning messy real-world problems into working systems</text>
+      </g>
+      <rect x="40" y="191" width="8" height="16" fill="#f0efec">
+        <animate attributeName="x" values="40;40;520;520;40" keyTimes="0;0.08;0.42;0.96;1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" fill="#c3c2b7">
+      <rect x="40" y="226" width="62" height="22" rx="11" fill="none" stroke="#3a3a3e"/><text x="71" y="241" text-anchor="middle">Python</text>
+      <rect x="110" y="226" width="90" height="22" rx="11" fill="none" stroke="#3a3a3e"/><text x="155" y="241" text-anchor="middle">TypeScript</text>
+      <rect x="208" y="226" width="40" height="22" rx="11" fill="none" stroke="#3a3a3e"/><text x="228" y="241" text-anchor="middle">Go</text>
+      <rect x="256" y="226" width="52" height="22" rx="11" fill="none" stroke="#3a3a3e"/><text x="282" y="241" text-anchor="middle">Rust</text>
+      <rect x="316" y="226" width="126" height="22" rx="11" fill="none" stroke="#3a3a3e"/><text x="379" y="241" text-anchor="middle">Bhubaneswar, IN</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="839" height="269" rx="12" fill="none" stroke="#2f2f31"/>
+</svg>
