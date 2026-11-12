@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="96" viewBox="0 0 840 96" role="img" aria-label="End of file. Thanks for scrolling — now go solve something.">
+  <defs>
+    <clipPath id="c"><rect width="840" height="96" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="840" height="96" fill="#161617"/>
+    <g fill="none" stroke-linecap="round">
+      <path stroke="#104281" stroke-width="2" d="M-140 62q35-22 70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="140 0" dur="7s" repeatCount="indefinite"/>
+      </path>
+      <path stroke="#1c5cab" stroke-width="2" d="M-140 70q35-16 70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0">
+        <animateTransform attributeName="transform" type="translate" from="140 0" to="0 0" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <path stroke="#3987e5" stroke-width="2" d="M-140 78q35-10 70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0t70 0">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="140 0" dur="3.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="420" y="36" text-anchor="middle" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#c3c2b7"><tspan fill="#199e70">$</tspan> exit 0  <tspan fill="#8b8b8d"># thanks for scrolling — now go solve something</tspan></text>
+  </g>
+  <rect x=".5" y=".5" width="839" height="95" rx="12" fill="none" stroke="#2f2f31"/>
+</svg>
