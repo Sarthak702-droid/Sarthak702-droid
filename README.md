@@ -8,6 +8,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarthaktripathy91104)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarthaktripathy2004@gmail.com)
 
+<br />
+
+<a href="#-how-i-solve-problems"><kbd> 01 · Method </kbd></a>
+<a href="#-challenge-my-solver"><kbd> 02 · Play </kbd></a>
+<a href="#-problems-ive-worked-on"><kbd> 03 · Work </kbd></a>
+<a href="#-toolbox"><kbd> 04 · Toolbox </kbd></a>
+<a href="#-live-activity"><kbd> 05 · Live </kbd></a>
+<a href="#-got-a-problem-worth-solving"><kbd> 06 · Contact </kbd></a>
+
 </div>
 
 ### I find the real problem first, then build the system that solves it.
@@ -20,12 +29,74 @@ Final-year CSE (AI & Data Science) student from Bhubaneswar. I start from a conc
 - 📊 **Data-driven roots.** Started with ML models and dashboards; that habit of measuring before deciding stuck.
 - 🤝 **Open to** internships, hackathon teams, and hard problems worth solving.
 
+<details>
+<summary><b>Recruiter with 30 seconds?</b></summary>
+
+<br />
+
+- Final-year B.Tech CSE (AI & Data Science), Bhubaneswar — open to internships and new-grad roles.
+- Ships complete products across Python, TypeScript, Go, and Rust, not just notebooks.
+- Best three to open: [Decision Kernel](https://github.com/Sarthak702-droid/DECISION-KERNEL) (Rust), [OpsPilot Lite](https://github.com/Sarthak702-droid/OpsPilot-Lite) (Next.js + Go), [RecoverOS](https://github.com/Sarthak702-droid/Recovery-Os) (Python).
+- Fastest way to reach me: [LinkedIn](https://www.linkedin.com/in/sarthaktripathy91104) or [email](mailto:sarthaktripathy2004@gmail.com).
+
+</details>
+
+<details>
+<summary><b>Engineer who wants to see how this page works?</b></summary>
+
+<br />
+
+- Every graphic here is an SVG generated or hand-written in [this repo](https://github.com/Sarthak702-droid/Sarthak702-droid) — no third-party stats services.
+- [`scripts/update_profile.py`](scripts/update_profile.py) (standard library only) queries the GitHub GraphQL API, then draws the odometer tiles, the isometric contribution skyline, and the maze.
+- The maze is a depth-first maze seeded by a word, solved with A\* and a Manhattan heuristic; the animation replays the exact order the search expanded cells.
+- A [GitHub Action](.github/workflows/profile.yml) reruns it daily, and whenever someone opens a `maze:` issue.
+
+</details>
+
+<details>
+<summary><b>Founder or teammate with a messy problem?</b></summary>
+
+<br />
+
+- I like problems where the hard part is deciding what to build: payments that fail, credit that can't be scored, risk nobody is watching.
+- I'll ask who hurts and what "fixed" means before I touch a keyboard.
+- Tell me about it: [email](mailto:sarthaktripathy2004@gmail.com).
+
+</details>
+
 ---
 
 ## 🧠 How I solve problems
 
 <p align="center">
   <img src="assets/solver-loop.svg" alt="understand → model → build → verify → ship" width="720" />
+</p>
+
+---
+
+## 🎮 Challenge my solver
+
+Give me any word. It becomes the seed for a brand-new maze, my A\* solver cracks it, and this page updates with the replay — usually in under a minute.
+
+<p align="center">
+  <img src="assets/maze.svg" alt="A maze generated from a visitor's word, being explored and solved by A* search" width="100%" />
+</p>
+
+<!--MAZE:START-->
+**Now solving:** `daily-2026-11-12` — today's daily maze · A\* explored **117** of 300 cells · shortest path **48** steps
+<!--MAZE:END-->
+
+<p align="center">
+  <a href="https://github.com/Sarthak702-droid/Sarthak702-droid/issues/new?body=Change%20the%20word%20after%20%22maze%3A%22%20in%20the%20title%20if%20you%20like%2C%20then%20press%20Create.%20A%20bot%20builds%20and%20solves%20your%20maze%20and%20replies%20here.&title=maze%3A%20your-word-here"><img src="https://img.shields.io/badge/%E2%96%B6_Build_a_maze_from_your_word-3987e5?style=for-the-badge" alt="Build a maze from your word" /></a>
+</p>
+
+<p align="center">
+  <sub>or one click:</sub>
+  <a href="https://github.com/Sarthak702-droid/Sarthak702-droid/issues/new?body=Change%20the%20word%20after%20%22maze%3A%22%20in%20the%20title%20if%20you%20like%2C%20then%20press%20Create.%20A%20bot%20builds%20and%20solves%20your%20maze%20and%20replies%20here.&title=maze%3A%20dragon"><kbd>dragon</kbd></a>
+  <a href="https://github.com/Sarthak702-droid/Sarthak702-droid/issues/new?body=Change%20the%20word%20after%20%22maze%3A%22%20in%20the%20title%20if%20you%20like%2C%20then%20press%20Create.%20A%20bot%20builds%20and%20solves%20your%20maze%20and%20replies%20here.&title=maze%3A%20entropy"><kbd>entropy</kbd></a>
+  <a href="https://github.com/Sarthak702-droid/Sarthak702-droid/issues/new?body=Change%20the%20word%20after%20%22maze%3A%22%20in%20the%20title%20if%20you%20like%2C%20then%20press%20Create.%20A%20bot%20builds%20and%20solves%20your%20maze%20and%20replies%20here.&title=maze%3A%20bhubaneswar"><kbd>bhubaneswar</kbd></a>
+  <a href="https://github.com/Sarthak702-droid/Sarthak702-droid/issues/new?body=Change%20the%20word%20after%20%22maze%3A%22%20in%20the%20title%20if%20you%20like%2C%20then%20press%20Create.%20A%20bot%20builds%20and%20solves%20your%20maze%20and%20replies%20here.&title=maze%3A%2042"><kbd>42</kbd></a>
+  <a href="https://github.com/Sarthak702-droid/Sarthak702-droid/issues/new?body=Change%20the%20word%20after%20%22maze%3A%22%20in%20the%20title%20if%20you%20like%2C%20then%20press%20Create.%20A%20bot%20builds%20and%20solves%20your%20maze%20and%20replies%20here.&title=maze%3A%20hire-sarthak"><kbd>hire-sarthak</kbd></a>
 </p>
 
 ---
@@ -143,6 +214,15 @@ Final-year CSE (AI & Data Science) student from Bhubaneswar. I start from a conc
 
 ## 💻 Toolbox
 
+<p align="center">
+  <img src="assets/toolbox.svg" alt="Python, TypeScript, Go, Rust, JavaScript, SQL, scikit-learn, pandas, NumPy, OpenCV, YOLOv8, Jupyter, Power BI, Next.js, React, PostgreSQL, Redis, Docker, Git, Open Policy Agent, Razorpay" width="100%" />
+</p>
+
+<details>
+<summary><b>Show it as a list</b></summary>
+
+<br />
+
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -169,12 +249,14 @@ Final-year CSE (AI & Data Science) student from Bhubaneswar. I start from a conc
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+</details>
+
 ---
 
 ## 📈 Live activity
 
 <p align="center">
-  <img src="assets/stats.svg" alt="Public repositories, contributions, repositories by language, and a contribution heatmap — regenerated daily" width="100%" />
+  <img src="assets/stats.svg" alt="Public repositories, contributions, repositories by language, and a 3D contribution skyline — regenerated daily" width="100%" />
 </p>
 
 **Recently shipped** — rebuilt every day by a [GitHub Action](.github/workflows/profile.yml), straight from the GitHub API.
@@ -199,6 +281,10 @@ I like problems that are messy, real, and a little uncomfortable. If you have on
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarthaktripathy2004@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-six-orpin-12.vercel.app)
 [![GitHub](https://img.shields.io/badge/All_repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarthak702-droid?tab=repositories)
+
+<p align="center">
+  <img src="assets/footer.svg" alt="exit 0 — thanks for scrolling, now go solve something" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Sarthak702-droid&label=Profile%20views&color=3987e5&style=flat" alt="profile views" />

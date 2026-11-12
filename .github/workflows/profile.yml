@@ -7,30 +7,61 @@ on:
   push:
     branches: [main]
     paths: ["scripts/**", ".github/workflows/profile.yml"]
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
+  issues: write
 
+# One run at a time, queued, so a visitor's maze and the daily refresh never race.
 concurrency:
   group: profile-refresh
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh:
+    # Issue events only count when the title asks for a maze.
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'maze:')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Regenerate stats card and recent-activity table
+
+      - name: Regenerate stats, toolbox, and the daily maze
+        if: github.event_name != 'issues'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_profile.py
+
+      # The issue title is untrusted input: it is only ever passed as an
+      # environment variable and reduced to [a-z0-9-] by the script.
+      - name: Build and solve the visitor's maze
+        id: maze
+        if: github.event_name == 'issues'
+        env:
+          MAZE_TITLE: ${{ github.event.issue.title }}
+          MAZE_BY: ${{ github.event.issue.user.login }}
+        run: python scripts/update_profile.py
+
       - name: Commit if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/stats.svg
-          git diff --cached --quiet || git commit -m "chore: refresh profile stats"
+          git add README.md assets data
+          git diff --cached --quiet || git commit -m "chore: refresh profile"
+          git pull --rebase --quiet
           git push
+
+      - name: Reply and close the issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+          SEED: ${{ steps.maze.outputs.seed }}
+          EXPLORED: ${{ steps.maze.outputs.explored }}
+          STEPS: ${{ steps.maze.outputs.steps }}
+        run: |
+          gh issue close "$ISSUE" --repo "$GITHUB_REPOSITORY" --comment "Solved. Your maze \`$SEED\` took A* **$EXPLORED** explored cells and a shortest path of **$STEPS** steps. Watch the replay on the profile: https://github.com/$GITHUB_REPOSITORY_OWNER (give the image a minute to refresh)."
