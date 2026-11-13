@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/portrait.svg" alt="Animated portrait of Sarthak Tripathy" width="100%" />
+
 <img src="assets/header.svg" alt="Sarthak Tripathy — problem solver. AI &amp; Data Science, full-stack systems." width="100%" />
 
 <br />
