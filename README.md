@@ -85,7 +85,7 @@ Give me any word. It becomes the seed for a brand-new maze, my A\* solver cracks
 </p>
 
 <!--MAZE:START-->
-**Now solving:** `daily-2026-11-25` — today's daily maze · A\* explored **278** of 300 cells · shortest path **69** steps
+**Now solving:** `daily-2026-11-26` — today's daily maze · A\* explored **272** of 300 cells · shortest path **57** steps
 <!--MAZE:END-->
 
 <p align="center">
